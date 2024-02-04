@@ -72,28 +72,6 @@ sudo apt install -y thunar thunar-archive-plugin thunar-volman file-roller
 # Fonts and icons for now
 sudo apt install -y fonts-recommended fonts-ubuntu fonts-font-awesome fonts-terminus
 
-# EXA installation
-# replace ls command in .bashrc file with line below
-# alias ls='exa -al --long --header --color=always --group-directories-first' 
-sudo apt install -y exa
-
-
-# Packages needed for window manager installation
-sudo apt install -y picom rofi dunst libnotify-bin unzip 
-
-
-########################################################
-# End of script for default config
-#
-
-## These two scripts will install nerdfonts and copy my configuration files into the ~/.config directory
-## Configuration uses 
-
-bash ~/bookworm-scripts/resources/nerdfonts.sh
-
-\cp ~/bookworm-scripts/resources/.bashrc ~
-
-
 sudo apt autoremove
 
 printf "\e[1;32mYou can now reboot! Thanks you.\e[0m\n"
