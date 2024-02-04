@@ -5,12 +5,20 @@
 # Install packages after installing base Debian with no GUI
 
 # PACKAGE INCLUDES build-essential.
-sudo apt install -y libgbm-dev \
+sudo apt install -y meson \
+wget \
+build-essential \
+ninja-build \
+cmake-extras \
+cmake \
+seatd 
+libtomlplusplus3
+libgbm-dev \
 xwayland \
 kitty \
 scdoc \
-seat \vulkan-validationlayers \
-vulkan-validationlayers-dev \
+vulkan-validationlayers \
+vulkan-utility-libraries-dev \
 wget \
 gettext \
 gettext-base \
