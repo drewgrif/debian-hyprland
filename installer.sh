@@ -11,8 +11,8 @@ build-essential \
 ninja-build \
 cmake-extras \
 cmake \
-seatd 
-libtomlplusplus3
+seatd \
+libtomlplusplus3 \
 libgbm-dev \
 xwayland \
 kitty \
@@ -58,7 +58,8 @@ libxcb-xinput-dev \
 libpango1.0-dev \
 xdg-desktop-portal-wlr \
 hwdata \
-libsystemd-dev 
+libsystemd-dev \
+
 
 # Create folders in user directory (eg. Documents,Downloads,etc.)
 xdg-user-dirs-update
