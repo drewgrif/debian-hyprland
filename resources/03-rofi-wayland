@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo apt install -y bison
+sudo apt install -y bison flex
 
 cd ~/Downloads
 
@@ -11,5 +11,6 @@ sudo ninja -C build install
 
 cd ..
 rm -rf rofi
+
 
 

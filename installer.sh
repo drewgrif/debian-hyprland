@@ -19,7 +19,7 @@ bash ~/debian-hyprland/resources/03-rofi-wayland
 sudo apt install -y thunar thunar-archive-plugin thunar-volman file-roller
 
 # SDDM
-sudo apt-get install --no-install-recommends -y sddm
+sudo apt install --no-install-recommends -y sddm
 
 # nwg-look
 bash ~/debian-hyprland/resources/04-nwg-look
