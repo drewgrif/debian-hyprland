@@ -2,7 +2,7 @@
 
 # Hyprland/Wayland Packages
  
- sudo apt install -y cliphist grim gvfs gvfs-backends dialog mtools dosfstools avahi-daemon acpi acpid kitty pavucontrol playerctl polkit-kde-agent-1 python3-requests python3-pip qt5ct qt5-style-kvantum qt5-style-kvantum-themes qt6ct slurp sway-notification-center waybar wget wl-clipboard wlogout xdg-user-dirs xdg-utils yad brightnessctl btop cava gnome-system-monitor mousepad mpv mpv-mpris nvtop pamixer swayidle viewnior swaybg
+ sudo apt install -y cliphist firefox-esr grim gvfs gvfs-backends dialog mtools dosfstools avahi-daemon acpi acpid kitty pavucontrol pipewire playerctl polkit-kde-agent-1 python3-requests python3-pip qt5ct qt5-style-kvantum qt5-style-kvantum-themes qt6ct slurp sway-notification-center waybar wget wl-clipboard wlogout xdg-user-dirs xdg-utils yad brightnessctl btop cava gnome-system-monitor mousepad mpv mpv-mpris nvtop pamixer swayidle viewnior swaybg
 
 
 sudo systemctl enable avahi-daemon
