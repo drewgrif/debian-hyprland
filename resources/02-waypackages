@@ -42,6 +42,7 @@
   pamixer /
   swayidle /
   viewnior /
+  swaybg /
 
 
 sudo systemctl enable avahi-daemon
