@@ -20,7 +20,7 @@ bash ~/debian-hyprland/resources/06-fonts
 bash ~/debian-hyprland/resources/07-rofi-wayland
 
 # SDDM
-bash ~/debian-hyprland/resources/08-login-mananger
+bash ~/debian-hyprland/resources/08-login-manager
 
 
 sudo apt autoremove
